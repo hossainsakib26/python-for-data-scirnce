@@ -15,4 +15,4 @@ for i in range(0, 3):
 np.savetxt('myArray.csv', myAray, fmt='%d', delimiter=',')
 #read my file
 reading_file = np.genfromtxt('MyArray.csv', delimiter=',', dtype='unicode')
-print(reading_file)
+print('generated array: ',reading_file, '\nshape: ',reading_file.shape)
