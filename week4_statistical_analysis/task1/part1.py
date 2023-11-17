@@ -10,6 +10,5 @@ print('\nmyDataSet: ', MyDataSet)
 #visualize data point and plot the data set
 #in data set x axis size will be 20 and y axis size will be 0 to 100
 plt.plot(MyDataSet, marker='v') #marker means design of point
-plt.plot()
 plt.show()
 
