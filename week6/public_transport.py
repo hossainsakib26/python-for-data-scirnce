@@ -42,8 +42,6 @@ my_Graph.add_edge('F', 'G', cce='#DC0102')
 my_Graph.add_edge('G', 'H', cce='#DC0102')
 my_Graph.add_edge('H', 'I', cce='#DC0102')
 
-#nx.set_node_attributes(my_Graph, {'E': 100, 'F': 90, 'G': 70, 'H': 60, 'I': 20}, name='B1')
-
 #add nodes/points on a graph
 #DLR line
 my_Graph.add_node('J', npos=(85, 20), ccn='#00AFAA') #Bow Charch
